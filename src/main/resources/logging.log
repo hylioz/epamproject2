@@ -1,0 +1,337 @@
+2018-11-05 13:19:48 INFO  WorkWithFile:16 - File read successfully
+2018-11-05 13:19:48 INFO  WorkWithFile:21 - TEXT:
+The     Windows desktop client is typically used on devices with less stringent storage constraints, and so it can accommodate a larger selection of fonts. However, whereas Windows desktop was traditionally used on devices with very large storage capacities, in recent years we have seen new form factors such as low-cost tablets that have more limited storage. Another key, high-level goal for Windows 10 has been to make the Windows desktop client work better than ever on such lower-cost devices. 
+
+As the international language coverage of Windows continued to grow, this meant that more and more international fonts were present on every system, whether or not the user on a given system had actual need for fonts for other languages. However, this added a large number of choices in font-picker controls and dialogs that would have low relevance for a given user. For instance, a Spanish user would be able to choose from dozens of Thai fonts, even though they might never use Thai. Moreover, this also added hundreds of megabytes to the size of every Windows desktop system. In order to reduce the amount of disk space that Windows requires and to improve the relevance of font choices provided to a given user, many Windows fonts have been moved into optional font features. 
+
+These optional font features are organized by different scripts and have language associations, and will get installed automatically based on those language associations. For example, the "Simplified Chinese Supplemental Fonts" feature has fonts used specifically for Simplified Chinese. If the Simplified Chinese version of Windows 10 is installed, then it will already have this optional font feature pre-installed. If a different language version of Windows 10 is installed but a user enables a Simplified Chinese input method, or if they have a profile associated with their Microsoft account that already includes Simplified Chinese and that profile roams onto the device, then the Simplified Chinese Supplemental Fonts feature will automatically be installed via Windows Update.
+
+By installing optional font packages to match the set of languages actively used on a system, we are able to achieve the best balance between the number of font choices provided and the disk footprint used. But even without any of these optional font features installed, every Windows 10 desktop system still includes the common UWP fonts, ensuring that Windows still has great support for Unicode and for international text, and ensuring that universal Windows apps can have great text display on desktop devices and every other form factor.
+2018-11-05 13:57:25 INFO  WorkWithFile:16 - File read successfully
+2018-11-05 13:57:25 INFO  WorkWithFile:21 - TEXT:
+The     Windows desktop client is typically used on devices with less stringent storage constraints, and so it can accommodate a larger selection of fonts. However, whereas Windows desktop was traditionally used on devices with very large storage capacities, in recent years we have seen new form factors such as low-cost tablets that have more limited storage. Another key, high-level goal for Windows 10 has been to make the Windows desktop client work better than ever on such lower-cost devices. 
+
+As the international language coverage of Windows continued to grow, this meant that more and more international fonts were present on every system, whether or not the user on a given system had actual need for fonts for other languages. However, this added a large number of choices in font-picker controls and dialogs that would have low relevance for a given user. For instance, a Spanish user would be able to choose from dozens of Thai fonts, even though they might never use Thai. Moreover, this also added hundreds of megabytes to the size of every Windows desktop system. In order to reduce the amount of disk space that Windows requires and to improve the relevance of font choices provided to a given user, many Windows fonts have been moved into optional font features. 
+
+These optional font features are organized by different scripts and have language associations, and will get installed automatically based on those language associations. For example, the "Simplified Chinese Supplemental Fonts" feature has fonts used specifically for Simplified Chinese. If the Simplified Chinese version of Windows 10 is installed, then it will already have this optional font feature pre-installed. If a different language version of Windows 10 is installed but a user enables a Simplified Chinese input method, or if they have a profile associated with their Microsoft account that already includes Simplified Chinese and that profile roams onto the device, then the Simplified Chinese Supplemental Fonts feature will automatically be installed via Windows Update.
+
+By installing optional font packages to match the set of languages actively used on a system, we are able to achieve the best balance between the number of font choices provided and the disk footprint used. But even without any of these optional font features installed, every Windows 10 desktop system still includes the common UWP fonts, ensuring that Windows still has great support for Unicode and for international text, and ensuring that universal Windows apps can have great text display on desktop devices and every other form factor.
+2018-11-05 14:00:49 INFO  WorkWithFile:16 - File read successfully
+2018-11-05 14:00:49 INFO  WorkWithFile:21 - TEXT:
+The     Windows desktop client is typically used on devices with less stringent storage constraints, and so it can accommodate a larger selection of fonts. However, whereas Windows desktop was traditionally used on devices with very large storage capacities, in recent years we have seen new form factors such as low-cost tablets that have more limited storage. Another key, high-level goal for Windows 10 has been to make the Windows desktop client work better than ever on such lower-cost devices. 
+
+As the international language coverage of Windows continued to grow, this meant that more and more international fonts were present on every system, whether or not the user on a given system had actual need for fonts for other languages. However, this added a large number of choices in font-picker controls and dialogs that would have low relevance for a given user. For instance, a Spanish user would be able to choose from dozens of Thai fonts, even though they might never use Thai. Moreover, this also added hundreds of megabytes to the size of every Windows desktop system. In order to reduce the amount of disk space that Windows requires and to improve the relevance of font choices provided to a given user, many Windows fonts have been moved into optional font features. 
+
+These optional font features are organized by different scripts and have language associations, and will get installed automatically based on those language associations. For example, the "Simplified Chinese Supplemental Fonts" feature has fonts used specifically for Simplified Chinese. If the Simplified Chinese version of Windows 10 is installed, then it will already have this optional font feature pre-installed. If a different language version of Windows 10 is installed but a user enables a Simplified Chinese input method, or if they have a profile associated with their Microsoft account that already includes Simplified Chinese and that profile roams onto the device, then the Simplified Chinese Supplemental Fonts feature will automatically be installed via Windows Update.
+
+By installing optional font packages to match the set of languages actively used on a system, we are able to achieve the best balance between the number of font choices provided and the disk footprint used. But even without any of these optional font features installed, every Windows 10 desktop system still includes the common UWP fonts, ensuring that Windows still has great support for Unicode and for international text, and ensuring that universal Windows apps can have great text display on desktop devices and every other form factor.
+2018-11-05 14:05:33 ERROR WorkWithFile:19 - File reading error
+java.nio.file.NoSuchFileException: text4
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at fileworker.WorkWithFile.ReadFromFile(WorkWithFile.java:15)
+	at service.TextService.initText(TextService.java:11)
+	at Main.main(Main.java:10)
+2018-11-05 14:05:33 INFO  WorkWithFile:21 - TEXT:
+null
+2018-11-05 14:06:34 INFO  WorkWithFile:16 - File read successfully
+2018-11-05 14:06:34 INFO  WorkWithFile:21 - TEXT:
+The     Windows desktop client is typically used on devices with less stringent storage constraints, and so it can accommodate a larger selection of fonts. However, whereas Windows desktop was traditionally used on devices with very large storage capacities, in recent years we have seen new form factors such as low-cost tablets that have more limited storage. Another key, high-level goal for Windows 10 has been to make the Windows desktop client work better than ever on such lower-cost devices. 
+
+As the international language coverage of Windows continued to grow, this meant that more and more international fonts were present on every system, whether or not the user on a given system had actual need for fonts for other languages. However, this added a large number of choices in font-picker controls and dialogs that would have low relevance for a given user. For instance, a Spanish user would be able to choose from dozens of Thai fonts, even though they might never use Thai. Moreover, this also added hundreds of megabytes to the size of every Windows desktop system. In order to reduce the amount of disk space that Windows requires and to improve the relevance of font choices provided to a given user, many Windows fonts have been moved into optional font features. 
+
+These optional font features are organized by different scripts and have language associations, and will get installed automatically based on those language associations. For example, the "Simplified Chinese Supplemental Fonts" feature has fonts used specifically for Simplified Chinese. If the Simplified Chinese version of Windows 10 is installed, then it will already have this optional font feature pre-installed. If a different language version of Windows 10 is installed but a user enables a Simplified Chinese input method, or if they have a profile associated with their Microsoft account that already includes Simplified Chinese and that profile roams onto the device, then the Simplified Chinese Supplemental Fonts feature will automatically be installed via Windows Update.
+
+By installing optional font packages to match the set of languages actively used on a system, we are able to achieve the best balance between the number of font choices provided and the disk footprint used. But even without any of these optional font features installed, every Windows 10 desktop system still includes the common UWP fonts, ensuring that Windows still has great support for Unicode and for international text, and ensuring that universal Windows apps can have great text display on desktop devices and every other form factor.
+2018-11-07 13:40:38 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 13:40:38 INFO  WorkWithFile:21 - TEXT:
+The     Windows desktop client is typically used on devices with less stringent storage constraints, and so it can accommodate a larger selection of fonts. However, whereas Windows desktop was traditionally used on devices with very large storage capacities, in recent years we have seen new form factors such as low-cost tablets that have more limited storage. Another key, high-level goal for Windows 10 has been to make the Windows desktop client work better than ever on such lower-cost devices. 
+
+As the international language coverage of Windows continued to grow, this meant that more and more international fonts were present on every system, whether or not the user on a given system had actual need for fonts for other languages. However, this added a large number of choices in font-picker controls and dialogs that would have low relevance for a given user. For instance, a Spanish user would be able to choose from dozens of Thai fonts, even though they might never use Thai. Moreover, this also added hundreds of megabytes to the size of every Windows desktop system. In order to reduce the amount of disk space that Windows requires and to improve the relevance of font choices provided to a given user, many Windows fonts have been moved into optional font features. 
+
+These optional font features are organized by different scripts and have language associations, and will get installed automatically based on those language associations. For example, the "Simplified Chinese Supplemental Fonts" feature has fonts used specifically for Simplified Chinese. If the Simplified Chinese version of Windows 10 is installed, then it will already have this optional font feature pre-installed. If a different language version of Windows 10 is installed but a user enables a Simplified Chinese input method, or if they have a profile associated with their Microsoft account that already includes Simplified Chinese and that profile roams onto the device, then the Simplified Chinese Supplemental Fonts feature will automatically be installed via Windows Update.
+
+By installing optional font packages to match the set of languages actively used on a system, we are able to achieve the best balance between the number of font choices provided and the disk footprint used. But even without any of these optional font features installed, every Windows 10 desktop system still includes the common UWP fonts, ensuring that Windows still has great support for Unicode and for international text, and ensuring that universal Windows apps can have great text display on desktop devices and every other form factor.
+2018-11-07 13:40:38 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 13:40:38 INFO  WorkWithFile:21 - TEXT:
+
+2018-11-07 13:43:01 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 13:43:01 INFO  WorkWithFile:21 - TEXT:
+The     Windows desktop client is typically used on devices with less stringent storage constraints, and so it can accommodate a larger selection of fonts. However, whereas Windows desktop was traditionally used on devices with very large storage capacities, in recent years we have seen new form factors such as low-cost tablets that have more limited storage. Another key, high-level goal for Windows 10 has been to make the Windows desktop client work better than ever on such lower-cost devices. 
+
+As the international language coverage of Windows continued to grow, this meant that more and more international fonts were present on every system, whether or not the user on a given system had actual need for fonts for other languages. However, this added a large number of choices in font-picker controls and dialogs that would have low relevance for a given user. For instance, a Spanish user would be able to choose from dozens of Thai fonts, even though they might never use Thai. Moreover, this also added hundreds of megabytes to the size of every Windows desktop system. In order to reduce the amount of disk space that Windows requires and to improve the relevance of font choices provided to a given user, many Windows fonts have been moved into optional font features. 
+
+These optional font features are organized by different scripts and have language associations, and will get installed automatically based on those language associations. For example, the "Simplified Chinese Supplemental Fonts" feature has fonts used specifically for Simplified Chinese. If the Simplified Chinese version of Windows 10 is installed, then it will already have this optional font feature pre-installed. If a different language version of Windows 10 is installed but a user enables a Simplified Chinese input method, or if they have a profile associated with their Microsoft account that already includes Simplified Chinese and that profile roams onto the device, then the Simplified Chinese Supplemental Fonts feature will automatically be installed via Windows Update.
+
+By installing optional font packages to match the set of languages actively used on a system, we are able to achieve the best balance between the number of font choices provided and the disk footprint used. But even without any of these optional font features installed, every Windows 10 desktop system still includes the common UWP fonts, ensuring that Windows still has great support for Unicode and for international text, and ensuring that universal Windows apps can have great text display on desktop devices and every other form factor.
+2018-11-07 13:43:01 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 13:43:01 INFO  WorkWithFile:21 - TEXT:
+itsOk?
+2018-11-07 14:09:37 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 14:09:37 INFO  WorkWithFile:21 - TEXT:
+itsOk?
+2018-11-07 15:12:00 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:12:00 INFO  WorkWithFile:21 - TEXT:
+itsOk?
+2018-11-07 15:13:33 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:13:33 INFO  WorkWithFile:21 - TEXT:
+Qwe      rerwe werewrwer.
+
+
+
+
+
+Erer treter  uyuty.
+2018-11-07 15:14:28 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:14:28 INFO  WorkWithFile:21 - TEXT:
+Qwe      rerwe werewrwer.
+
+
+
+
+
+Erer treter  uyuty.
+2018-11-07 15:18:53 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:18:53 INFO  WorkWithFile:21 - TEXT:
+Qwe      rerwe werewrwer.
+
+
+
+
+
+Erer treter  uyuty.
+2018-11-07 15:20:40 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:20:40 INFO  WorkWithFile:21 - TEXT:
+Qwe      rerwe werewrwer.
+
+
+
+
+
+Erer treter  uyuty.
+2018-11-07 15:20:57 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:20:57 INFO  WorkWithFile:21 - TEXT:
+Qwe      rerwe werewrwer.
+
+
+
+
+
+Erer treter  uyuty.
+2018-11-07 15:21:40 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:21:40 INFO  WorkWithFile:21 - TEXT:
+Qwe      rerwe werewrwer.
+
+
+
+
+
+Erer treter  uyuty.
+2018-11-07 15:22:41 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:22:41 INFO  WorkWithFile:21 - TEXT:
+Qwe      rerwe werewrwer.
+
+
+
+
+
+Erer treter  uyuty.
+2018-11-07 15:23:29 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:23:29 INFO  WorkWithFile:21 - TEXT:
+Qwe      rerwe werewrwer.
+
+
+
+
+
+Erer treter  uyuty.
+2018-11-07 15:23:42 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:23:42 INFO  WorkWithFile:21 - TEXT:
+Qwe      rerwe werewrwer.
+
+
+
+
+
+Erer treter  uyuty.
+2018-11-07 15:29:05 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:29:05 INFO  WorkWithFile:21 - TEXT:
+Bsf gkgo gfjigfs gfgf. Afd kfg hsbd gvsd bgfs.
+
+
+Dsd gfij vbm srdf ndt. Sfndj fj fngj fly jdb.
+2018-11-07 15:29:28 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:29:28 INFO  WorkWithFile:21 - TEXT:
+Bsf gkgo gfjigfs gfgf. Afd kfg hsbd gvsd bgfs.
+
+
+Dsd gfij vbm srdf ndt. Sfndj fj fngj fly jdb.
+2018-11-07 15:31:57 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:31:57 INFO  WorkWithFile:21 - TEXT:
+Bsf gkgo     gfjigfs gfgf. Afd kfg hsbd gvsd bgfs.
+
+
+Dsd gfij   vbm srdf ndt.    Sfndj fj fngj fly jdb.
+2018-11-07 15:32:48 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:32:48 INFO  WorkWithFile:21 - TEXT:
+Bsf gkgo     gfjigfs gfgf. Afd kfg hsbd gvsd bgfs.
+
+
+Dsd gfij   vbm srdf ndt.    Sfndj fj fngj fly jdb.
+2018-11-07 15:33:54 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:33:54 INFO  WorkWithFile:21 - TEXT:
+Bsf gkgo     gfjigfs gfgf. Afd kfg hsbd gvsd bgfs.
+
+
+Dsd gfij   vbm srdf ndt.    Sfndj fj fngj fly jdb.
+2018-11-07 15:42:27 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:42:27 INFO  WorkWithFile:21 - TEXT:
+Bsf gkgo     gfjigfs gfgf. Afd kfg hsbd gvsd bgfs.
+
+
+Dsd gfij   vbm srdf ndt.    Sfndj fj fngj fly jdb.
+2018-11-07 15:42:40 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:42:40 INFO  WorkWithFile:21 - TEXT:
+Bsf gkgo     gfjigfs gfgf. Afd kfg hsbd gvsd bgfs.
+
+
+Dsd gfij   vbm srdf ndt.    Sfndj fj fngj fly jdb.
+2018-11-07 15:45:58 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:45:58 INFO  WorkWithFile:21 - TEXT:
+Bsf gkgo     gfjigfs gfgf. Afd kfg hsbd gvsd bgfs.
+
+
+Dsd gfij   vbm srdf ndt.    Sfndj fj fngj fly jdb.
+2018-11-07 15:46:29 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:46:29 INFO  WorkWithFile:21 - TEXT:
+Bsf gkgo     gfjigfs gfgf. Afd kfg hsbd gvsd bgfs.
+
+
+Dsd gfij   vbm srdf ndt.    Sfndj fj fngj fly jdb.
+2018-11-07 15:47:44 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:47:44 INFO  WorkWithFile:21 - TEXT:
+Bsf gkgo     gfjigfs gfgf. Afd kfg hsbd gvsd bgfs.
+
+
+Dsd gfij   vbm srdf ndt.    Sfndj fj fngj fly jdb.
+2018-11-07 15:47:55 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:47:55 INFO  WorkWithFile:21 - TEXT:
+Bsf gkgo     gfjigfs gfgf. Afd kfg hsbd gvsd bgfs.
+
+
+Dsd gfij   vbm srdf ndt   .	Sfndj fj fngj fly jdb.
+2018-11-07 15:48:50 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:48:50 INFO  WorkWithFile:21 - TEXT:
+Bsf gkgo     gfjigfs gfgf. Afd kfg hsbd gvsd bgfs.
+
+
+Dsd gfij   vbm srdf ndt   .	Sfndj fj fngj fly jdb.
+2018-11-07 15:51:45 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:51:45 INFO  WorkWithFile:21 - TEXT:
+Bsf gkgo     gfjigfs gfgf. Afd kfg hsbd gvsd bgfs.
+
+
+Dsd gfij   vbm srdf ndt   .	Sfndj fj fngj fly jdb.
+2018-11-07 15:52:18 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:52:18 INFO  WorkWithFile:21 - TEXT:
+Bsf gkgo     gfjigfs gfgf. Afd kfg hsbd gvsd bgfs.
+
+
+Dsd gfij   vbm srdf ndt   .	Sfndj fj fngj fly jdb.
+2018-11-07 15:53:44 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:53:44 INFO  WorkWithFile:21 - TEXT:
+Bsf gkgo     gfjigfs gfgf. Afd kfg hsbd gvsd bgfs.
+
+
+Dsd gfij   vbm srdf ndt   .	Sfndj fj fngj fly jdb.
+2018-11-07 15:53:44 INFO  TextService:30 - Detected empty word {printSortedWords}
+2018-11-07 15:55:59 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:55:59 INFO  WorkWithFile:21 - TEXT:
+Bsf gkgo     gfjigfs gfgf. Afd kfg hsbd gvsd bgfs.
+
+
+Dsd gfij   vbm srdf ndt   .	Sfndj fj fngj fly jdb.
+2018-11-07 15:55:59 INFO  TextService:29 - Detected empty word {printSortedWords}
+2018-11-07 15:56:47 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:56:47 INFO  WorkWithFile:21 - TEXT:
+Bsf gkgo     gfjigfs gfgf. Afd kfg hsbd gvsd bgfs.
+
+
+Dsd gfij   vbm srdf ndt   .    Sfndj fj fngj fly jdb.
+2018-11-07 15:56:47 INFO  TextService:29 - Detected empty word {printSortedWords}
+2018-11-07 15:57:37 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:57:37 INFO  WorkWithFile:21 - TEXT:
+Bsf gkgo     gfjigfs gfgf. Afd kfg hsbd gvsd bgfs.
+
+
+Dsd gfij   vbm srdf ndt   .    Sfndj fj fngj fly jdb.
+2018-11-07 15:59:34 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:59:34 INFO  WorkWithFile:21 - TEXT:
+Bsf gkgo     gfjigfs gfgf. Afd kfg hsbd gvsd bgfs.
+
+
+Dsd gfij   vbm srdf ndt   .    Sfndj fj fngj fly jdb.
+2018-11-07 15:59:57 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 15:59:57 INFO  WorkWithFile:21 - TEXT:
+Bsf gkgo     gfjigfs gfgf. Afd kfg hsbd gvsd bgfs.
+
+
+Dsd gfij   vbm srdf ndt   .    Sfndj fj fngj fly jdb.
+2018-11-07 16:30:35 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 16:30:35 INFO  WorkWithFile:21 - TEXT:
+Bsf gkgo     gfjigfs gfgf. Afd kfg hsbd gvsd bgfs.
+
+
+Dsd gfij   vbm srdf ndt   .    Sfndj fj fngj fly jdb.
+2018-11-07 20:39:14 ERROR WorkWithFile:19 - File reading error
+java.nio.file.NoSuchFileException: text5.txt
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at fileworker.WorkWithFile.ReadFromFile(WorkWithFile.java:15)
+	at service.TextService.initText(TextService.java:14)
+	at tests.MainTest.taskRun(MainTest.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+2018-11-07 20:39:14 INFO  WorkWithFile:21 - TEXT:
+null
+2018-11-07 20:39:34 INFO  WorkWithFile:16 - File read successfully
+2018-11-07 20:39:34 INFO  WorkWithFile:21 - TEXT:
+The     Windows desktop client is typically used on devices with less stringent storage constraints, and so it can accommodate a larger selection of fonts. However, whereas Windows desktop was traditionally used on devices with very large storage capacities, in recent years we have seen new form factors such as low-cost tablets that have more limited storage. Another key, high-level goal for Windows 10 has been to make the Windows desktop client work better than ever on such lower-cost devices. 
+
+As the international language coverage of Windows continued to grow, this meant that more and more international fonts were present on every system, whether or not the user on a given system had actual need for fonts for other languages. However, this added a large number of choices in font-picker controls and dialogs that would have low relevance for a given user. For instance, a Spanish user would be able to choose from dozens of Thai fonts, even though they might never use Thai. Moreover, this also added hundreds of megabytes to the size of every Windows desktop system. In order to reduce the amount of disk space that Windows requires and to improve the relevance of font choices provided to a given user, many Windows fonts have been moved into optional font features. 
+
+These optional font features are organized by different scripts and have language associations, and will get installed automatically based on those language associations. For example, the "Simplified Chinese Supplemental Fonts" feature has fonts used specifically for Simplified Chinese. If the Simplified Chinese version of Windows 10 is installed, then it will already have this optional font feature pre-installed. If a different language version of Windows 10 is installed but a user enables a Simplified Chinese input method, or if they have a profile associated with their Microsoft account that already includes Simplified Chinese and that profile roams onto the device, then the Simplified Chinese Supplemental Fonts feature will automatically be installed via Windows Update.
+
+By installing optional font packages to match the set of languages actively used on a system, we are able to achieve the best balance between the number of font choices provided and the disk footprint used. But even without any of these optional font features installed, every Windows 10 desktop system still includes the common UWP fonts, ensuring that Windows still has great support for Unicode and for international text, and ensuring that universal Windows apps can have great text display on desktop devices and every other form factor.
